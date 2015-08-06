@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Check if the Drone Process is running
+# Check if the Drone Process is running or hasn't started
 ps ax | grep NzbDrone | grep -v grep > /dev/null 
 
 # If it's not running, check the exit status
