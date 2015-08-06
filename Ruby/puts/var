@@ -1,0 +1,9 @@
+word= '...This Word'
+name= 'Rizbe'
+num= 5+5
+puts num
+puts '5+5=' +num.to_s # Had to add variable followed by .to_s to get it to work 
+puts 'My name is ' + name + '.'
+puts word *2
+puts word
+puts 1084
